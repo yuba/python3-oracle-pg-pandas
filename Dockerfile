@@ -28,4 +28,4 @@ ENV LD_LIBRARY_PATH /usr/lib/oracle/12.1/client64/lib
 RUN ldconfig
 
 # Install Python Packages
-RUN pip3 install requests cx_oracle sqlalchemy pyyaml pandas psycopg2 nose openpyxl paramiko cryptography xlrd
+RUN pip3 install requests cx_oracle sqlalchemy pyyaml pandas psycopg2 nose openpyxl paramiko cryptography xlrd bottle
